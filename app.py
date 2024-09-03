@@ -62,6 +62,7 @@ def create_answers_section(df):
     return None  
 
 def main():
+    
     df = load_data()
 
     create_dataframe_section(df)
