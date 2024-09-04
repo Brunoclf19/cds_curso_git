@@ -64,7 +64,7 @@ def create_answers_section(df):
     return None  
 
 def main():
-    df = load_data()
+    df_raw = load_data()
 
     create_dataframe_section(df_raw)
 
@@ -72,8 +72,8 @@ def main():
 
     return None
 
-    st.dataframe(df)
+#     st.dataframe(df)
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     
-    main()
+#     main()
